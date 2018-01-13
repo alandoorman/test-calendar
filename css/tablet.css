@@ -1,0 +1,156 @@
+@media screen and (max-width: 1000px) {
+
+    #options-calendar {
+        width: 100%;
+        height: 25vh;
+    }
+    
+    #month-calendar {
+        height: auto;
+    }
+    
+    #options-calendar p {
+        width: 25%;
+        margin: 15px !important;
+        display: inline-block;
+    }
+    
+    #month-calendar {
+        position: static;
+        width: 100%;
+    }
+    
+    #mov {
+        width: 300%;
+    }
+    
+    footer {
+        position: static;
+    }
+    
+       header {
+        height: 80px;
+    }
+    
+    header h1 {
+    margin: 0 10px;
+    line-height: 80px;
+    }
+    
+    nav label {
+        display: block;
+        text-align: right;
+        width: 80%;
+    }
+    
+    nav label input{
+        display:none;
+    }
+    
+    nav ul li {
+        display:block;
+    }
+    
+    header nav ul {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        overflow: hidden;
+        height: auto;
+        position: absolute;
+        right:0;
+        max-width: 0;
+        background: #2d2d2d;
+        z-index: 9999999;
+        margin-right: 0;
+        top: 0;
+    } 
+    
+    header nav ul li {
+        width: 60vw !important;
+        height: auto;
+        padding 10px 0;
+    }
+    
+    header nav ul li a {
+        padding: 20px 0;
+        color: white;
+    }
+    
+    header nav ul li a:hover {
+        color: white;
+    }
+    
+    header nav img {
+        display: block;
+        right: 0;
+        position: absolute;
+        top: 0;
+        width: 75px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;    }
+        
+        input[type="checkbox"]:checked ~ img {
+        margin-right: 60vw !important;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    input[type="checkbox"]:checked ~ ul {
+        max-width: 60vw !important;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    
+    .input-picker .picker-list.day-list td>button {
+        padding: .42308em 0;
+    }
+    
+    .calendar {
+        padding: 0;
+    }
+    
+    .input-picker .ws-picker-controls {
+        position: static;
+        display: inline;
+    }
+    button.ws-next {
+        position: static;
+        display: inline;
+    }
+    
+    .input-picker .ws-picker-controls>button.ws-year-btn:after, .input-picker .ws-picker-controls>button:before{
+        font-size: 25px;
+    }
+    
+    .input-picker .ws-picker-header>button {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .input-picker .ws-button-row {
+        position: static;
+    }
+    
+    .input-picker .ws-button-row>button {
+        width: 100%;
+    }
+    
+    footer {
+    text-align: center;
+    box-sizing: content-box;
+    font-weight: 700;
+    line-height: normal;
+}
+
+    footer p {
+        margin: 10px !important;
+    }
+}

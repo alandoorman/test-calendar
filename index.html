@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+<title>Doormann Calendar</title>
+
+<meta name="description" content="Calendario creado por Alan Doorman González para un test">
+<meta name="keywords" content="Alan Doorman, avenida.com, Google Calenda">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Alan Doorman">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/css.css">
+<link rel="stylesheet" href="css/tablet.css">
+<link rel="stylesheet" href="css/celu.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Yantramanav:400,700" rel="stylesheet">
+</head>
+    
+    
+<body>
+<header>
+    <h1>
+        <img src="img/icon.png" alt="Logo Alan Doorman"> 
+    </h1>
+    <nav>
+        <label>
+          <input type="checkbox" name="menu" value="Bangalú">
+          <img src="img/menu-responsive.png" alt="Menú responsive">
+            <ul>
+                <li>
+                    <a href="http://www.alandoorman.me">
+                        Blog
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.mundobangalu.alandoorman.me">
+                    Sitio personal
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.calendar.alandoorman.me/con-jquery.html">
+                        Galería
+                    </a>
+                </li>
+            </ul>
+        </label>
+    </nav>
+</header>
+<main>
+<section id="options-calendar">
+    <h2>Cambiar mes</h2>
+    <div>
+        
+        <p onclick="javascript:mayo();" id="mayo">
+            Mayo
+        </p>
+        <p onclick="javascript:junio();" id="junio">
+            Junio
+        </p>
+        <p onclick="javascript:julio();" id="julio">
+            Julio
+        </p>
+    </div>
+</section>
+<section id="month-calendar">
+   <div id="mov"> 
+       <article>
+            <h2>
+                Mayo
+            </h2>
+            <div>
+            <p>
+                Lunes
+            </p><!--
+            --><p>
+                Martes
+            </p><!--     
+            --><p>
+                Miércoles
+            </p><!--
+            --><p>
+                Jueves
+            </p><!--     
+            --><p>
+                Viernes
+            </p><!--     
+            --><p>
+                Sabado
+            </p><!--     
+            --><p>
+                Domingo
+            </p><!--     
+            --></div>
+            <ul>
+                <li>
+                1 
+               </li><!--
+            --><li>
+                2 
+               </li><!--
+                --><li>
+                 3
+                </li><!--
+            --><li>
+                4 
+               </li><!--
+            --><li class="arg">
+                5 
+               </li><!--
+            --><li>
+                6 
+               </li><!--
+            --><li>
+                7 
+               </li><!--
+            --><li>
+                8 
+               </li><!--
+            --><li>
+                9
+               </li><!--
+            --><li>
+                10
+               </li><!--
+            --><li>
+                11
+               </li><!--
+            --><li>
+                12
+               </li><!--
+            --><li>
+                13
+               </li><!--
+            --><li>
+                14
+               </li><!--
+            --><li>
+                15
+               </li><!--
+            --><li>
+                16
+               </li><!--
+            --><li>
+                17 
+               </li><!--
+            --><li>
+                18
+               </li><!--
+            --><li>
+                19
+               </li><!--
+            --><li>
+                20
+               </li><!--
+            --><li>
+                21
+               </li><!--
+            --><li>
+                22
+               </li><!--
+            --><li>
+                23
+               </li><!--
+            --><li>
+                24
+               </li><!--
+            --><li>
+                25
+               </li><!--
+            --><li>
+                26
+               </li><!--
+            --><li>
+                27
+               </li><!--
+            --><li>
+                28
+               </li><!--
+            --><li>
+                29
+               </li><!--
+            --><li>
+                30
+               </li><!--
+            --><li>
+                31 
+               </li>
+            </ul>
+    </article>
+       <article>
+            <h2>
+                Junio
+            </h2>
+            <div>
+            <p>
+                Lunes
+            </p><!--
+            --><p>
+                Martes
+            </p><!--     
+            --><p>
+                Miércoles
+            </p><!--
+            --><p>
+                Jueves
+            </p><!--     
+            --><p>
+                Viernes
+            </p><!--     
+            --><p>
+                Sabado
+            </p><!--     
+            --><p>
+                Domingo
+            </p><!--     
+            --></div>
+            <ul>
+                <li>
+                1 
+               </li><!--
+            --><li>
+                2 
+               </li><!--
+                --><li>
+                 3
+                </li><!--
+            --><li>
+                4 
+               </li><!--
+            --><li>
+                5 
+               </li><!--
+            --><li>
+                6 
+               </li><!--
+            --><li>
+                7 
+               </li><!--
+            --><li>
+                8 
+               </li><!--
+            --><li>
+                9
+               </li><!--
+            --><li>
+                10
+               </li><!--
+            --><li>
+                11
+               </li><!--
+            --><li>
+                12
+               </li><!--
+            --><li>
+                13
+               </li><!--
+            --><li>
+                14
+               </li><!--
+            --><li>
+                15
+               </li><!--
+            --><li>
+                16
+               </li><!--
+            --><li>
+                17 
+               </li><!--
+            --><li>
+                18
+               </li><!--
+            --><li>
+                19
+               </li><!--
+            --><li>
+                20
+               </li><!--
+            --><li>
+                21
+               </li><!--
+            --><li>
+                22
+               </li><!--
+            --><li>
+                23
+               </li><!--
+            --><li>
+                24
+               </li><!--
+            --><li>
+                25
+               </li><!--
+            --><li>
+                26
+               </li><!--
+            --><li>
+                27
+               </li><!--
+            --><li>
+                28
+               </li><!--
+            --><li>
+                29
+               </li><!--
+            --><li>
+                30
+               </li>
+            </ul>
+    </article>
+        <article>
+            <h2>
+                Julio
+            </h2>
+            <div>
+            <p>
+                Lunes
+            </p><!--
+            --><p>
+                Martes
+            </p><!--     
+            --><p>
+                Miércoles
+            </p><!--
+            --><p>
+                Jueves
+            </p><!--     
+            --><p>
+                Viernes
+            </p><!--     
+            --><p>
+                Sabado
+            </p><!--     
+            --><p>
+                Domingo
+            </p><!--     
+            --></div>
+            <ul>
+                <li>
+                1 
+               </li><!--
+            --><li>
+                2 
+               </li><!--
+                --><li>
+                 3
+                </li><!--
+            --><li>
+                4 
+               </li><!--
+            --><li>
+                5 
+               </li><!--
+            --><li>
+                6 
+               </li><!--
+            --><li>
+                7 
+               </li><!--
+            --><li>
+                8 
+               </li><!--
+            --><li>
+                9
+               </li><!--
+            --><li>
+                10
+               </li><!--
+            --><li>
+                11
+               </li><!--
+            --><li>
+                12
+               </li><!--
+            --><li>
+                13
+               </li><!--
+            --><li>
+                14
+               </li><!--
+            --><li>
+                15
+               </li><!--
+            --><li>
+                16
+               </li><!--
+            --><li>
+                17 
+               </li><!--
+            --><li>
+                18
+               </li><!--
+            --><li>
+                19
+               </li><!--
+            --><li>
+                20
+               </li><!--
+            --><li>
+                21
+               </li><!--
+            --><li>
+                22
+               </li><!--
+            --><li>
+                23
+               </li><!--
+            --><li>
+                24
+               </li><!--
+            --><li>
+                25
+               </li><!--
+            --><li>
+                26
+               </li><!--
+            --><li>
+                27
+               </li><!--
+            --><li>
+                28
+               </li><!--
+            --><li>
+                29
+               </li><!--
+            --><li>
+                30
+               </li>
+            </ul>
+    </article>
+    </div>
+</section>
+</main>
+<footer>
+    <p>
+        Alan Doorman Gonzalez - +54 11 4034 1928 - alandoorman@gmail.com
+    </p>
+</footer>
+        <script src="js/index.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+</body>
+
+
